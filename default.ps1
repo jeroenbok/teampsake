@@ -11,6 +11,7 @@ task Test -depends Compile, Clean {
 }
 
 task Compile -depends Clean { 
+  MsBuild /t:Rebuild /p:Configuration=Release
   $compileMessage
 }
 
