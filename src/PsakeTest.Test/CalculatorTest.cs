@@ -20,4 +20,21 @@ namespace PsakeTest.Test
             Assert.That(new Calculator().Sum(10, 10), Is.EqualTo(20), "sum");
         }
     }
+
+    [TestFixture]
+    [Category("Acceptance")]
+    public class CalculatorAcceptanceTest
+    {
+        [Test]
+        public void Foo()
+        {
+            
+        }
+
+        [Test]
+        public void Bar()
+        {
+            
+        }
+    }
 }
