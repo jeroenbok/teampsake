@@ -8,6 +8,7 @@ Thumbs.db
 # Build and Object Folders
 bin/
 obj/
+build_artifacts/
 
 #User Specific Files
 *.user
